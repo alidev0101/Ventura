@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "moraba";
+  src: url("../fonts/Morabba/woff2/Morabba-Medium.woff2") format('woff2');
+  font-display: swap;
+  /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("../fonts/Dana/woff2/DanaFaNum-Medium.woff2") format('woff2');
+  font-display: swap;
+  /* IE9 Compat Modes */
+}
+
+
 /* Define CSS custom properties with modern color spaces */
 :root {
   --radius: 0.65rem;
@@ -72,7 +87,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "dana" !important;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
